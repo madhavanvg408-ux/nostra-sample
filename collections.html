@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nostra | Collections</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="logo">Nostra</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="collections.html" class="active">Collections</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="collections">
+    <h1>Our Collections</h1>
+
+    <!-- Search and Filter -->
+    <div class="controls">
+      <input type="text" id="searchInput" placeholder="Search products..." />
+      <select id="filterCategory">
+        <option value="all">All</option>
+        <option value="hoodie">Hoodies</option>
+        <option value="sneaker">Sneakers</option>
+        <option value="accessory">Accessories</option>
+      </select>
+    </div>
+
+    <!-- Product Grid -->
+    <div class="product-grid" id="productGrid">
+      <div class="product" data-category="hoodie">
+        <img src="OIP (2).webp" alt="Hoodie" />
+        <h3>Classic Hoodie</h3>
+      </div>
+
+      <div class="product" data-category="sneaker">
+        <img src="pic7.avif" alt="Sneaker" />
+        <h3>Air Runner</h3>
+      </div>
+
+      <div class="product" data-category="accessory">
+        <img src="pic6.avif" alt="Cap" />
+        <h3>Street Cap</h3>
+      </div>
+
+      <div class="product" data-category="hoodie">
+        <img src="pic5.avif" alt="Hoodie" />
+        <h3>Zip Hoodie</h3>
+      </div>
+
+      <div class="product" data-category="sneaker">
+        <img src="OIP (1).webp" alt="Sneaker" />
+        <h3>Urban Kicks</h3>
+      </div>
+
+      <div class="product" data-category="accessory">
+        <img src="OIP.webp" alt="Bag" />
+        <h3>Everyday Bag</h3>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Nostra. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
